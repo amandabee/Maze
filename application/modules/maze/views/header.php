@@ -23,19 +23,19 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 <head>
 <title></title>
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
-<?php echo link_tag('styles/styles.css'); ?>
+<?php echo link_tag('public/styles/styles.css'); ?>
 <!--[if IE 6]>
-<?php echo link_tag('styles/ie.css'); ?>
+<?php echo link_tag('public/styles/ie.css'); ?>
 <![endif]-->
-<?php echo script_tag('scripts/jquery-1.2.3.pack.js'); ?>
-<?php echo script_tag('scripts/maze.js'); ?>
-<?php echo script_tag('scripts/plugins/jquery.tooltips.js'); ?>
-<?php echo script_tag('scripts/plugins/jquery.dimensions.js'); ?>
-<?php echo script_tag('scripts/plugins/jquery.bgiframe.js'); ?>
-<?php echo script_tag('scripts/plugins/jquery.blockUI.js'); ?>
-<?php echo script_tag('scripts/plugins/jquery.ifixpng.js'); ?>
-<?php echo script_tag('scripts/plugins/jquery.domec.js'); ?>
-<?php echo script_tag('scripts/firebug/firebug.js'); ?>
+<?php echo script_tag('public/scripts/jquery-1.2.3.pack.js'); ?>
+<?php echo script_tag('public/scripts/maze.js'); ?>
+<?php echo script_tag('public/scripts/plugins/jquery.tooltips.js'); ?>
+<?php echo script_tag('public/scripts/plugins/jquery.dimensions.js'); ?>
+<?php echo script_tag('public/scripts/plugins/jquery.bgiframe.js'); ?>
+<?php echo script_tag('public/scripts/plugins/jquery.blockUI.js'); ?>
+<?php echo script_tag('public/scripts/plugins/jquery.ifixpng.js'); ?>
+<?php echo script_tag('public/scripts/plugins/jquery.domec.js'); ?>
+<?php echo script_tag('public/scripts/firebug/firebug.js'); ?>
 
 <base href="<?php echo site_url(''); ?>" />
 
